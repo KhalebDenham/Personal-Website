@@ -14,8 +14,8 @@ function ColorSchemesExample() { //This is a modified navbar in which I utilized
           <Navbar.Brand href="/home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link href="/features">Features</Nav.Link>
-            <Nav.Link href="/pricing">Pricing</Nav.Link>
+            <Nav.Link href="/mountain">Mountain</Nav.Link>
+            <Nav.Link href="/river">River</Nav.Link>
             <Dropdown as={NavItem}>
               <Dropdown.Toggle as={NavLink}>Click to see more…</Dropdown.Toggle>
               <Dropdown.Menu>
