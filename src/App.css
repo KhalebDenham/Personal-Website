@@ -47,15 +47,35 @@
   height: 300px;
 }
 
-.HomePage {
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
+.homeContainer {
+  color: red;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: white;
+  outline-style: groove;
+  padding-bottom: 10%;
+}
+
+.homeContainer-div {
+  
+
 }
 
 .mountainContainer {
   background-image: url("../public/centerMountain.jpg");
   background-size: cover;
+  height: 50vh;
+  width: 50vw;
+}
+
+.riverContainer {
+  background-image: url("../public/mountainAndTree.jpg");
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 50vh;
   width: 50vw;
 }
