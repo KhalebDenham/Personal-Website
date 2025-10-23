@@ -48,18 +48,25 @@
 }
 
 .homeContainer {
-  color: red;
+  color: blue;
   display: flex;
-  justify-content: center;
-  font-size: 1.5rem;
-  background-color: white;
-  outline-style: groove;
-  padding-bottom: 10%;
 }
 
-.homeContainer-div {
-  
+.homeContainer div {
+  font-size: 1.5rem;
+  font-family: monospace;
+  background-color: cornsilk;
+  outline-style: groove;
+  outline-color: blueviolet;
+  margin: 22.5%;
+  padding: 25px;
+  display: flex;
+}
 
+.homeContainer h2 {
+  background-color: cornsilk;
+  margin-bottom: auto;
+  padding: 2.5%
 }
 
 .mountainContainer {
@@ -71,7 +78,7 @@
 
 .riverContainer {
   background-image: url("../public/mountainAndTree.jpg");
-  background-size:cover;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;

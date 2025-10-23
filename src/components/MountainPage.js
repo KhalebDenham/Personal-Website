@@ -4,6 +4,6 @@ import CenterCard from "./CenterCard";
 
 export default function MountainPage() {
   return (<div className="mountainContainer">
-
+    <form></form>
   </div>)
 }
