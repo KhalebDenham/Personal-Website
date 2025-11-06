@@ -1,0 +1,9 @@
+{
+    "Name": null,
+    "Employer": null,
+    "Hobby": null,
+    "Friends": ["Allison", "Bagonia"],
+    "Posts": [],
+    "isAdmin": false
+    
+}

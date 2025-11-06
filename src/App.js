@@ -9,6 +9,7 @@ import HomePage from "./components/HomePage.js";
 import MountainPage from "./components/MountainPage.js";
 import RiverPage from "./components/RiverPage.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Form from './components/Form.js'
 
 function App() {
   return (
